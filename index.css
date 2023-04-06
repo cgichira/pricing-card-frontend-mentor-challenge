@@ -1,0 +1,92 @@
+body {
+    font-size: 16px;
+    width: 50%;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  #main-div {
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+    padding: 25px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.35);
+  }
+  h2 {
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+  }
+  #sub-heading-id {
+    color: hsl(71, 73%, 54%);
+  }
+  #lower-divs {
+    padding: 2px;
+    display: flex;
+    font-size: 14px;
+  }
+  #subscription-div {
+    width: 50%;
+    padding: 25px;
+    background-color: hsl(189, 70%, 52%);
+    border-bottom-left-radius: 14px;
+    color: white;
+  }
+  #tutorials-div {
+    width: 50%;
+    padding: 25px;
+    background-color: hsl(189, 82%, 69%);
+    color: white;
+    border-bottom-right-radius: 14px;
+  }
+  #joincommunity-div {
+    color: hsl(218, 22%, 67%);
+  }
+  #joincommunity-parag {
+    line-height: 0.5em;
+  }
+  #singup-btn {
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: hsl(73, 100%, 60%);
+    margin-top: 10px;
+  }
+  #singup-btn:hover {
+    color: hsl(73, 100%, 60%);
+    background-color: white;
+    border: solid 1px hsl(73, 100%, 60%);
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+  }
+  #singup-btn:active {
+    color: white;
+    background-color: hsl(73, 100%, 60%);
+    padding: 8px;
+  }
+  #dollar-span {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  #dollar-paarag {
+    opacity: 0.8;
+  }
+  li {
+    color: hsl(204, 43%, 93%);
+  }
+  ul {
+    padding-left: 0px;
+    list-style: none;
+  }
+  h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
