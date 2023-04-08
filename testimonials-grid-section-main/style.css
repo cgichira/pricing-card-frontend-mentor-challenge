@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+
+}
+#main-section{
+    background-color: #ecf2f8;
+    padding: 30px 20px 20px 20px;
+    font-size: 13px;
+    width: 100%;
+    min-width: 100px;
+    margin: 0px auto;
+    
+}
+#blogger-01{
+    background-color: #7541c8;
+    color:  #ffffff;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+}
+#blogger-02{
+    background-color:#48556a;
+    color:  #ffffff;
+}
+#blogger-03{
+    background-color: #ffffff;
+    color:  #19212e;
+}
+#blogger-04{
+    background-color: #19212e;
+    color:  #ffffff;
+}
+#blogger-05{
+    background-color: #ffffff;
+    color:  #19212e;
+}
+
+.blogger-class{
+    border-radius: 5px;
+    margin-bottom:20px;
+    padding: 20px;
+    box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 1px 0px 9px 0px rgba(0,0,0,0.7);
+}
+
+.blogger-class img{
+    border-radius: 50%;
+    border-color: #7541c8;
+}
+.blogger-identity{
+    display: flex;
+}
+.blogger-identity p{
+    margin: 0px;
+}
+.blogger-passport-photo, .blogger-name-graduatestatus{
+    align-self: center;
+}
+.blogger-passport-photo{
+    margin-right: 20px;
+}
+.blogger-name,.blog-title{
+    font-weight: 600;
+} 
+.blogger-graduatestatus,.blog{
+    font-weight: 500;
+}
+.blogger-graduatestatus{
+    opacity: 0.5;
+}
+.blog{
+    opacity: 0.7;
+    line-height: 1.3rem;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width:375px){
+    #main-section,#left-section,#right-section,#top-left-section,#bottom-left-section,#left-bottom-left-section,
+    #right-bottom-left-section,#left-top-left-section,#right-top-left-section,#left-bottom-left-section,#right-bottom-left-section{
+        display: flex;
+    }
+    #main-section{
+        flex-direction: row;
+        max-width: 1024px;
+    }
+    #left-section{
+        flex-direction: column;
+        flex-basis: 70%;
+    }
+    #right-section{
+        flex-direction: row;
+        flex-basis: 30%;
+    }
+    #left-top-left-section,#right-bottom-left-section{
+        flex-basis: 65%;
+    }
+    #right-top-left-section,#left-bottom-left-section{
+        flex-basis: 35%;
+    }
+    #left-section .blogger-class{
+        margin-right: 20px;
+    }
+}
